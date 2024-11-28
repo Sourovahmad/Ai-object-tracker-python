@@ -30,5 +30,5 @@ For the prototypes you can simply run `pip install -r requirements.txt` in the r
 ## Samples
 <div style="">
   <img src="result.jpg" alt="Sample Image" />
-  <p style="font-size: smaller; margin-top: 0px;">Yolo v8 XL, 30ms inference result on RTX 3070 Ti Laptop, Laptop Camera Feed (real-time)</p>
+  <p style="font-size: smaller; margin-top: 0px;">Yolo v9 XL, 30ms inference result on RTX 3070 Ti Laptop, Laptop Camera Feed (real-time)</p>
 </div>
