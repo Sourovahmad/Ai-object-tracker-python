@@ -1,9 +1,7 @@
-from ultralytics import YOLO
+from config.config import load_yolo
 
 # Load a pretrained YOLO model (recommended for training)
-model = YOLO("yolov9c.pt")
-
-
+model = load_yolo("yolov9c.pt")
 
 # Run batched inference on a list of images
 results = model(["image1.jpg"])  
@@ -19,4 +17,3 @@ for result in results:
     result.save(filename="result.jpg")
 
 
-    
