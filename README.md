@@ -9,7 +9,7 @@ With ultralytics python package, you can easily convert these .pt models to e.g.
 ```python
 from ultralytics import YOLO
 
-model = YOLO("yolov8m.pt")
+model = YOLO("yolov9c.pt")
 
 model.export(format="onnx", opset=12, imgsz=[640, 640])
 ```
